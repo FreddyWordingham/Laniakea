@@ -2,7 +2,9 @@
 name = "laniakea"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Full-stack framework for running Rust powered HPC simulations"
+repository = "https://github.com/FreddyWordingham/Laniakea"
+keywords = ["render", "physics", "simulation"]
+categories = ["science", "simulation"]
 
 [dependencies]

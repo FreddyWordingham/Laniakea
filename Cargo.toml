@@ -6,5 +6,6 @@ description = "Full-stack framework for running Rust powered HPC simulations"
 repository = "https://github.com/FreddyWordingham/Laniakea"
 keywords = ["render", "physics", "simulation"]
 categories = ["science", "simulation"]
+license = "None"
 
 [dependencies]

@@ -9,3 +9,4 @@ categories = ["science", "simulation"]
 license = "None"
 
 [dependencies]
+actix-web = "4"

@@ -14,4 +14,7 @@ const user = {
 };
 
 const element = <h1>Hello, {format_name(user)}</h1>;
-root.render(element);
+
+if (user) {
+    root.render(element);
+}

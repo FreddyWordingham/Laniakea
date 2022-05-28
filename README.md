@@ -1,6 +1,6 @@
 # Laniakea
 
-A full-stack web framework for running Rust powered HPC simulations
+A full-stack web framework using React + Typescript + Rust to run a cluster of HPC simulations,
 
 
 ## Quickstart

@@ -2,19 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-function Welcome(props) {
-    return <h1>Hello, {props.name}</h1>;
-}
-
-function App() {
-    return (
-        <div>
-            <Welcome name="Sara" /> <Welcome name="Cahal" />{" "}
-            <Welcome name="Edite" />{" "}
-        </div>
-    );
-}
+import { Clock } from "./clock.tsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const element = <App />;
-root.render(element);
+
+function tick() {
+    root.render(<Clock date={new Date()} />);
+}
+setInterval(tick, 1000);

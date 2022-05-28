@@ -7,14 +7,13 @@ export class Toggle extends React.Component<Props, State> {
     constructor(props) {
         super(props);
         this.state = { is_toggled_on: true };
-        this.handle_click = this.handle_click.bind(this);
     }
 
-    handle_click() {
+    handle_click = () => {
         this.setState((prev_state) => ({
             is_toggled_on: !prev_state.is_toggled_on,
         }));
-    }
+    };
 
     render() {
         return (

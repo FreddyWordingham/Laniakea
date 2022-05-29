@@ -2,19 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { Clock } from "./clock.tsx";
-import { Toggle } from "./toggle.tsx";
-import { LoginControl } from "./login_control.tsx";
+import { List } from "./list.tsx";
 
-function App() {
-    return (
-        <div>
-            <Clock />
-            <Toggle />
-            <LoginControl />
-        </div>
-    );
-}
+// function App() {
+//     return (
+//         <div>
+//             <Page />
+//         </div>
+//     );
+// }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+
+const numbers = [1, 2, 3, 4, 5];
+root.render(<List numbers={numbers} />);

@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { Select } from "./select.tsx";
+import { File } from "./file.tsx";
 
 function App() {
     return (
         <div>
-            <Select />
+            <File />
         </div>
     );
 }

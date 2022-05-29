@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { Form } from "./form.tsx";
+import { Select } from "./select.tsx";
 
 function App() {
     return (
         <div>
-            <Form />
+            <Select />
         </div>
     );
 }

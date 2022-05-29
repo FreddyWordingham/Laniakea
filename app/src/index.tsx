@@ -2,17 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { List } from "./list.tsx";
+import { Form } from "./form.tsx";
 
-// function App() {
-//     return (
-//         <div>
-//             <Page />
-//         </div>
-//     );
-// }
+function App() {
+    return (
+        <div>
+            <Form />
+        </div>
+    );
+}
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const numbers = [1, 2, 3, 4, 5];
-root.render(<List numbers={numbers} />);
+root.render(<App />);

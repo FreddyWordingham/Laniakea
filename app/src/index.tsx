@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { File } from "./file.tsx";
+import { BoilingCalculator } from "./boiling_calculator.tsx";
 
 function App() {
     return (
         <div>
-            <File />
+            <BoilingCalculator />
         </div>
     );
 }

@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { Reservation } from "./reservation.tsx";
+import { File } from "./file.tsx";
 
 function App() {
     return (
         <div>
-            <Reservation />
+            <File />
         </div>
     );
 }

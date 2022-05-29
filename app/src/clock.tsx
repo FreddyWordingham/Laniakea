@@ -4,7 +4,7 @@ type Props = {};
 type State = { date: Date };
 
 export class Clock extends React.Component<Props, State> {
-    timer_id: number;
+    private timer_id: number;
 
     constructor(props) {
         super(props);

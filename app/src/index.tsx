@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { Calculator } from "./calculator.tsx";
+import { Counter } from "./counter.tsx";
 
 function App() {
     return (
         <div>
-            <Calculator />
+            <Counter />
         </div>
     );
 }
